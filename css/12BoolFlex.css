@@ -10,57 +10,15 @@
 .container {
     max-width: 1200px;
     margin: auto;
-    padding: 10px;
-    background-color: #CAF0F8;
-    outline: 2px solid #90E0EF;
-    text-align: center;
 }
 
 .row {
     display: flex;
     flex-wrap: wrap;
-    margin: 10px 0;
-    padding: 10px;
 }
-
-[class*="col-"] {
-    padding: 10px;
-    color: #fff;
-    font-weight: bold;
-}
-
-.container > .row:first-child {
-    margin-top: 0;
-}
-
-.container > .row:last-child {
-    margin-bottom: 0;
-}
-
-.container > .row {
-    background-color: #ADE8F4;
-    outline: 2px solid #48CAE4;
-}
-
-.container > .row > [class*="col-"] {
-    background-color: #90E0EF;
-    outline: 2px solid #00B4D8;
-}
-
-.container > .row > [class*="col-"] > .row {
-    background-color: #48CAE4;
-    outline: 2px solid #0096C7;
-}
-
-.container > .row > [class*="col-"] > .row > [class*="col-"] {
-    background-color: #00B4D8;
-    outline: 2px solid #0077B6;
-}
-
 /* /Common */
 
-/* ANCHOR Mobile First */
-
+/* ANCHOR Columns */
 .col-xs-auto {flex-grow: 1;}
 .col-xs-1 {width: calc((100% / 12) * 1);}
 .col-xs-2 {width: calc((100% / 12) * 2);}
@@ -74,5 +32,8 @@
 .col-xs-10 {width: calc((100% / 12) * 10);}
 .col-xs-11 {width: calc((100% / 12) * 11);}
 .col-xs-12 {width: calc((100% / 12) * 12);}
+/* Columns */
 
-/* /Mobile First */
+/* ANCHOR OFFSET */
+
+/* /OFFSET */
