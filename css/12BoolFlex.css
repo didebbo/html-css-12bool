@@ -34,7 +34,7 @@
 .col-xs-12 {width: calc((100% / 12) * 12);}
 /* Columns */
 
-/* ANCHOR OFFSET */
+/* ANCHOR Offset */
 .ml-xs-auto {margin-left: auto;}
 .ml-xs-1 {margin-left: calc((100% / 12) * 1);}
 .ml-xs-2 {margin-left: calc((100% / 12) * 2);}
@@ -48,5 +48,4 @@
 .ml-xs-10 {margin-left: calc((100% / 12) * 10);}
 .ml-xs-11 {margin-left: calc((100% / 12) * 11);}
 .ml-xs-12 {margin-left: calc((100% / 12) * 12);}
-
-/* /OFFSET */
+/* /Offset */
