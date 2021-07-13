@@ -19,7 +19,7 @@
 /* /Common */
 
 /* ANCHOR Columns */
-.col-xs-auto {flex-grow: 1;}
+.col-xs-auto {width: 0; flex-grow: 1;}
 .col-xs-1 {width: calc((100% / 12) * 1);}
 .col-xs-2 {width: calc((100% / 12) * 2);}
 .col-xs-3 {width: calc((100% / 12) * 3);}
